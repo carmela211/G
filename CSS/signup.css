@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/gagalin');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.Hero
+{
+    width: 100%;
+    background-color: #F0ACBA;
+}
+.Nav
+{
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-banner
+{
+    display: flex;
+    align-items: center;
+}
+.nav-banner h1
+{
+    padding-left: 1rem;
+    font-size: 35px;
+}
+.nav-banner img
+{
+    width: 60px;
+    height: 60px;
+}
+.nav-main li
+{
+    display: inline-block;
+    padding-left: 1rem;
+}
+.nav-main li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-main li a:hover
+{
+    color: white;
+}
+.Container
+{
+    width: 100%;
+    height: 615px;
+    background-image: url(/images/Login-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Content
+{
+    width: 800px;
+    height: 500px;
+    border-radius: 20px;
+    border: 5px dashed black;
+    background-color: #F0ACBA;
+    padding: 10px 3rem;
+    text-align: center;
+}
+.Content > h1
+{
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.hr
+{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.Content form
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs
+{
+    margin: 0 auto;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    width:350px;
+    padding: 0.6rem;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+    font-family: cursive;
+}
+.remember
+{
+    padding-bottom: 1rem;
+   padding-right: 14rem;
+   padding-top: .10rem;
+}
+.login-btn
+{
+    background-color: #ff6384;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 2rem;
+    width: 200px;
+    margin: 0 auto;
+}
+.login-btn:hover
+{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+.forgt-sign
+{
+    display: flex;
+    flex-direction: column;
+}
+.sign-up,
+.forgot-a
+{
+    color: black;
+    text-decoration: none;  
+}
+.sign-up:hover,
+.forgot-a:hover
+{
+color: white;
+}
+.Login-With 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.Login-With h2
+{
+    position: absolute;
+    background: white;
+    padding: .20rem;
+    font-size: 20px;
+}
+.SocMed li
+{
+    display: inline-block;
+    list-style: none;
+    padding-left: 20px;
+    padding-top: 1rem;
+}
+.SocMed li a svg
+{
+    color: black;
+    width: 30px;
+    height: 30px;
+}
+.SocMed li a svg:hover
+{
+    color: white;
+}

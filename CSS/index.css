@@ -1,0 +1,146 @@
+@import url('https://fonts.cdnfonts.com/css/gagalin');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.Hero
+{
+    width: 100%;
+    background-color: #F0ACBA;
+}
+.Nav-Area
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1rem 2rem;
+    align-items: center;
+}
+
+.Nav ul li
+{
+    display: inline-block;
+    padding-left: 2rem;
+}
+.Nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.Nav ul li a:hover
+{
+    color: white;
+}
+.Container
+{
+    width: 100%;
+    height: 650px;
+    background-image: url(/images/Bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Container-Grid
+{
+    display: grid;
+    grid-template-columns: 100%;
+    height: 100%;
+}
+.Txt-Area
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Main-Txt
+{
+    width: 80%;
+    height: 560px;
+    padding: 1rem 5rem;
+    text-align: center;
+}
+.Logo-Title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.Logo-Title img
+{
+    width: 150px;
+    height: 150px;
+}
+.Logo-Title h1
+{
+    padding-left: 1rem;
+    font-size: 60px;
+    font-family: 'Gagalin', sans-serif;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+.Main-Txt p
+{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.Socmed-Icons ul li
+{
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 1rem;
+}
+.Socmed-Icons ul li a svg
+{
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+.Socmed-Icons ul li a svg:hover
+{
+    color: white;
+}
+.Shop-Now
+{
+    margin-top: 5rem;
+    padding: 0.8em 1.8em;
+    border: 2px solid #17C3B2;
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: white;
+}
+.Shop-Now::before
+{
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #17C3B2;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+.Shop-Now:hover::before 
+{
+    width: 105%;
+}
+
+.Shop-Now:hover
+{
+    color: #111;
+}
